@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Circle implements Shape, ApplicationEventPublisherAware{
 
+	
 	private Point center;
 	private ApplicationEventPublisher publisher;
 
