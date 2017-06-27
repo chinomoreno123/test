@@ -55,7 +55,7 @@ public class Circle implements Shape, ApplicationEventPublisherAware{
 
 	@PreDestroy
 	public void destroyCircle() {
-		System.out.println("Destroy circle");
+		System.out.println("Destroy circle 1");
 
 	}
 
