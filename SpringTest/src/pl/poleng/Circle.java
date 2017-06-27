@@ -19,6 +19,7 @@ public class Circle implements Shape, ApplicationEventPublisherAware{
 	   
 	private Point center;
 	private ApplicationEventPublisher publisher;
+	
 	@Autowired
 	private MessageSource massageSource;
 
